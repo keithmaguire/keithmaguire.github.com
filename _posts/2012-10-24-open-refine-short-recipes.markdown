@@ -106,6 +106,7 @@ toUppercase(substring(value,0,1 ))+toLowercase(substring(value,1))
 #Faceting by is-it-blank-or-a-particular-word
 
 To facet by whether the value is blank or another particular word -- the example I'm working with is where I've a load of values in a particular column which read "none". Equally you might want to ignore "n/a" or something like that.
+
 ```
 isBlank(value.replace("none",""))
 ```
@@ -166,9 +167,9 @@ cells.COLUMN_ONE.value==cells.COLUMN_TWO.value
 
 If you're not getting useful results when comparing two columns make sure that the format of the data is the same - Refine doesn't think that a _date_ 1984 and a string "1984" are identical.  To compare them add a `toString` where appropriate so you'd end up with something like:
 
-`
+```
 cells["COLUMN\_ONE"].value.toString==toString(cells["COLUMN\_TWO"].value)
-'
+```
 
 I want to get one column of dates and compare it to the dates in another column called "Authority". 
 
