@@ -1,0 +1,20 @@
+---
+layout: post
+title: "hello"
+date: 2012-06-10 20:47
+comments: true
+categories: 
+---
+
+Hello
+
+# This blog
+
+My plan is to make this an irregularly updated blog where I post short articles about tools that I find useful while at work.
+
+The plan was to do posts about digitising historical maps but my work has swerved away from that so it's more about data cleaning and related stuff.
+
+## Made with
+This blog is made with [jekyll](jekyllrb.com). I like the concept of static website generators because wrestling with them seems more fun and more useful than working out how to work a wordpress or blogger or suchlike site or installation.  I firstly did this with [Octopress](http://octopress.org/) but I've found it a bit overkill for my needs.  There'll probably be the odd bit of markup that I've missed when swapping over so please forgive any random italicising
+
+The dates of posts are when they were _first_ written. I'm always changing my mind about the best ways to phrase something so will update and hopefully improve (or remove) posts as and when improvements occur. If for some reason you want to see the more worser version of things look at this site on the [Wayback Machine](http://web.archive.org/web/*/keithmaguire.net). Eventually I'll get rid of the dates and put in categories instead

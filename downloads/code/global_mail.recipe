@@ -1,0 +1,13 @@
+class AdvancedUserRecipe1350090663(BasicNewsRecipe):
+    title          = u'The Global Mail'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup = True
+    remove_empty_feeds = True
+    import re
+    feeds          = [(u'Power', u'http://www.theglobalmail.org/rss/features/in/power/'), (u'Resources', u'http://www.theglobalmail.org/rss/features/in/resources/'), (u'Culture', u'http://www.theglobalmail.org/rss/features/in/culture/'), (u'People', u'http://www.theglobalmail.org/rss/features/in/people/'), (u'Technology', u'http://www.theglobalmail.org/rss/features/in/technology/'), (u'Blogs', u'http://www.theglobalmail.org/rss/features/in/blog/'), (u'The Global Mail (main feed)', u'http://www.theglobalmail.org/rss/')]
+    remove_tags    = [dict(name='div', attrs={'class':re.compile('^.*-quote.*$')}),
+		   dict(name='div', attrs={'id':'comments'})	]
+    extra_css      = '.story-bottom-box {display: block; font-size: 80%; font-style: italic;}'
+
+   
