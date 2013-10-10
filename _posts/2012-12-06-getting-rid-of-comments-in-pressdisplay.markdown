@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Getting rid of comments in Pressdisplay"
-date: 2012-12-06 21:05
-categories: pressdisplay, adblock, stylish, comments
 ---
 
 Pressdisplay is a fantastic website which your library may provide access to.  Using it you can read newspapers from around the world in newspaper form as opposed to website form.  It's great.
