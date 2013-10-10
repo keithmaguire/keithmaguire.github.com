@@ -1,3 +1,22 @@
 name: keithmaguire.net
 markdown: redcarpet
 pygments: true
+prose:
+  siteurl: "http://keithmaguire.net"
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          label: "Layout"
+          element: "text"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "Title"
