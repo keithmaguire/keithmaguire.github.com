@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Open Refine short recipes"
-date: 2012-08-24 16:59
-categories: refine
 ---
 
 [Open Refine](http://openrefine.org/) is as useful for faceted browsing as it is for data cleaning. You can get to grips with the structure and character of a large and irregular data set without altering anything. 
