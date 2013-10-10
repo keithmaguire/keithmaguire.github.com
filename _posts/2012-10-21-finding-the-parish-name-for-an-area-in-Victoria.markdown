@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Finding the Parish name for an area in Victoria"
-date: 2012-10-21 
-categories: parish cadastral victoria
 ---
 
 When doing historical research based around a particular location in Australia going back more than a few decades it is very useful to know the different cadastral boundaries associated with the area.  So if you're looking in Victoria you'll want to know the parish and county.
