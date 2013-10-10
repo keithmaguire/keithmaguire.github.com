@@ -2,8 +2,6 @@
 layout: post
 title: "Calibre recipe for the Global Mail"
 date: 2012-10-03 17:11
-comments: true
-categories: calibre
 ---
 
 Since its launch I've found [The Global Mail](http://www.theglobalmail.org/) to be a consistently interesting read. Their new website is a vast improvement over the previous one but I still prefer reading it in an ebook format.  For this I use [Calibre](http://calibre-ebook.com/)
