@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "(Refine) Two columns have the same information but jumbled up"
-date: 2012-11-16 21:05
-categories: refine
 ---
 
 This is to illustrate one way in which you can approach faceting data.  This exact example is possibly of very limited use for anything apart from the single time I needed it but it's useful for walking through the thought process where a number of simple steps get combined to make an apparently complicated expression.
