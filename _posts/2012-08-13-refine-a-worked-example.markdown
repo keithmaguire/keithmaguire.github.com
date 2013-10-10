@@ -18,14 +18,14 @@ The difficulty arose from an inevitable result of working with datasets compiled
 The difficulty this presented for me was like this - the date that an item was published would not necessarily be in the expected place. In the example I was using the columns of interest were those derived from the MARC code field DATE where the publication date would be expected to occur, IMPRINT, where the imprint information would be expected, and there was the off-chance that the TITLE could contain the date of publication. 
 
 So, instead of 
+![ideal data](/images/workexample/ideal_data.PNG)
 
-![text arranged in the ideal way](/images/workexample/ideal_data.PNG)
+
 
 
 <p>There were many entries where the entries would look like</p>
 
-![messy or normal data](/images/workexample/messy_data.PNG)
-
+![messy or normal data](/_posts/messy_data.PNG)
 
 It's worth mentioning that every positive result was going to be hand-checked as part of the larger process, so I was more concerned that I might miss items than that I might return too many items. In the event there were only maybe four false results out of about three and a half thousand positives.
 
