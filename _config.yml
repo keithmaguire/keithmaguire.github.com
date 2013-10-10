@@ -19,4 +19,4 @@ prose:
         field:
           label: "Title"
           element: "text"
-          value: "Title"
+          value: "Enter the Title"
