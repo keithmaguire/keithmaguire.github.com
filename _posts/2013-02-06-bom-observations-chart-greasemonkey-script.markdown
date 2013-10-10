@@ -2,8 +2,6 @@
 layout: post
 title: "BOM observations chart Greasemonkey script"
 date: 2013-02-06 20:26
-comments: true
-categories: d3 greasemonkey
 ---
 Do you live in Australia?? 
 
