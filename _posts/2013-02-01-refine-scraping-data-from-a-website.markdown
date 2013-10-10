@@ -2,8 +2,6 @@
 layout: post
 title: "(Refine) Scraping data from a website"
 date: 2013-02-01
-comments: true
-categories: refine afd
 ---
 
 One of the things that Refine can do for you is add information to a data set by looking up information online.
