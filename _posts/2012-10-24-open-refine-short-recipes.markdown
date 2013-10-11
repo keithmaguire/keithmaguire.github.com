@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Open Refine short recipes"
+title: Open Refine short recipes
+published: true
 ---
 
 [Open Refine](http://openrefine.org/) is as useful for faceted browsing as it is for data cleaning. You can get to grips with the structure and character of a large and irregular data set without altering anything. 
 
+- [Using spaces when joining columns](#spaces)
 - [Handling null values when faceting with multiple columns](#null)
 - [Save your start/end point](#startend)
 - [Faceting on a particular substring, regardless of blanks or case](#blankcase)
@@ -15,6 +17,34 @@ title: "Open Refine short recipes"
 - [Checking the number of 'words' in a field](#nowords)
 - [Compare two columns](#compcol)
 - [Compare two columns with different types of data](#compdifcol)
+
+<a name="spaces"></a>
+#Using spaces when joining columns
+
+When joining columns it can make things easier to read if you put a space between them.
+
+So if you join `cat` and `hat` you get `cat hat` rather than `cathat`
+
+Rather than  
+
+`cells.colA.value + cells.colB.value`  
+
+use
+
+`cells.colA.value + " " + cells.colB.value`
+
+You will then want to make sure you remove extra spaces from the string at the end. `trim()` removes any spaces from the start or end of the value and `replace(/\s+/," ")` replaces any group of spaces with a single one. The two commands can be joined together:
+
+`trim().replace(/\s+/," ")`
+
+You can include this in the command when originally creating the new column, ending up with:
+
+```
+cells.colA.value + " " + cells.colB.value
+.trim().replace(/\s+/," ")
+```
+
+This is the equivalent of doing the join and then running both of **Edit Cells > Commonly Used Transformations > Remove leading or following white spaces** and **remove multiple white spaces**
 
 <a name="null"></a>
 #Handling null values when faceting with multiple columns
@@ -32,20 +62,12 @@ If you're referring to another column replace `value` with `cells.col_1.value` o
 forNonBlank(cells.col_1.value,v,v "")
 ```
 
-When joining columns you possibly like to put a space between them to make things clearer - rather than just `colA + colB`,  `colA + " " + colB`
-
-If you use that you'll want to make sure you remove extra spaces from the string at the end. Do this by enclosing the GREL which joins the strings in brackets and at the end put `.trim().replace(/\s+/," ")`
-
-This is the equivalent of doing the join and then running both of the Commonly Used Transformations - "Remove leading or following white spaces" and "remove multiple white spaces"
-
 So if you were working with a dataset where some cells contained Genus information, some Subgenus and some Species - but not all of them in every row - you end up with something along the lines of
 
 {% highlight javascript %}
 (
-cells.Genus.value
-    +" "+
-forNonBlank(cells.species.value,v,v "")
-    +" "+
+cells.Genus.value +" "+
+forNonBlank(cells.species.value,v,v "") +" "+
 forNonBlank(cells.subspecies.value,v,v "")
 )
 .trim().replace(/\s+/," ")
@@ -181,4 +203,3 @@ which combined makes:
 `
 toString(cells.Authority.value.partition(" ")[2].replace(")",""))==toString(value)
 `
-
