@@ -13,10 +13,10 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #FCFCFC;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,65 +63,89 @@ ul.posts span {
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
-}
-
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
-  color: #000;
-}
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
+  background: #FFF;
 }
 
 .site .meta {
   color: #aaa;
 }
 
-.site .footer {
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+
+.header {
+  margin: 2em}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header h1.title {
+  font-size: 2em;
+  line-height: 1.5em;
+  display: inline-block;
+}
+
+.header h1.title a {
+  color: #a00;
+}
+
+.header h1.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+
+.footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
+  margin-bottom: 2em;
   overflow: hidden;
 }
 
-.site .footer .contact {
+.footer .contact {
   float: left;
   margin-right: 3em;
+  margin-left: 2em;
 }
 
-.site .footer .contact a {
+.footer .contact a {
   color: #8085C1;
 }
 
-.site .footer .rss {
+.footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
 
-.site .footer .rss img {
+.footer .rss img {
   border: 0;
 }
+
+
+
+
+
 
 /*****************************************************************************/
 /*
