@@ -2,16 +2,28 @@
 {% include head.html %}
 
     <body>
+<div class="container">
 
-{% include header.html %}
 
-       <div class="site">
-          {{ content }}
-       </div>
 
+		<div class="three columns alpha">
+	{% include header.html %}
+		</div>
+
+		<div class="twelve columns offest-by-one omega">
+
+	       <div class="site">
+	          {{ content }}
+	       </div>
+
+		</div>
+
+
+<div class="sixteen columns">
 {% include footer.html %}
+</div>
 
+</div>
     </body>
-
 
 {% include tail.html %}
