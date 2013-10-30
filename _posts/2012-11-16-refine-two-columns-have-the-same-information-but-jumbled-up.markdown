@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "(Refine) Two columns have the same information but jumbled up"
+title: (Refine) Two columns have the same information but jumbled up
+published: true
 ---
 
-This is to illustrate one way in which you can approach faceting data.  This exact example is possibly of very limited use for anything apart from the single time I needed it but it's useful for walking through the thought process where a number of simple steps get combined to make an apparently complicated expression.
+This is to illustrate one way in which you can approach faceting data.  To show how a number of simple steps get combined to make an apparently complicated expression.
 
 #Setup
 
-What happened is that I've already tidied up a massive list of names so that it all nice and tidy: LASTNAME FIRSTINITIAL. 
+I've tidied up a massive list of names so that it's all nice and tidy: LASTNAME FIRSTINITIAL. 
 
 Now I've found another list of names which I am *almost* certain contains exactly the same names. If the values *are* the same then the second column can just be forgotten about. 
 
@@ -17,9 +18,7 @@ Look at these lines, they're small enough that just scanning it tells you that t
 
 ![showing the columns](/images/foreachfingerprint/Selection_004.png )
 
-
-
-None of the following are transformations applied to the values - these are all Custom Facets. At this stage we're not trying to change anything, just checking to see if they're the same. So we start by getting a `fingerprint()` of the surnames
+None of the following are transformations applied to the values - these are all Custom Facets. I'm not trying to change anything, just checking to see if they're the same. Start by getting a `fingerprint()` of the surnames
 
 #Fingerprint() of surnames
 
@@ -77,6 +76,3 @@ Both of those lines are the mostly the same except that `value` in the first is 
 To illustrate what happens when they're not the same:
 
 ![new column with true or false with false entry](/images/foreachfingerprint/Selection_006.png )
-
-
-
