@@ -7,7 +7,7 @@ title: Keith Maguire . net
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a>&emsp;<span>{{ post.date | date_to_string }}</span>  </li>
+      <li>&raquo;<a href="{{ post.url }}">{{ post.title }}</a>&emsp;<span>{{ post.date | date_to_string }}</span>  </li>
     {% endfor %}
   </ul>
 </div>
