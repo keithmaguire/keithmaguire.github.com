@@ -34,17 +34,17 @@ I was using this to make sure that double initials get separated out and don't g
 
 Then, each of these separated out values which was only a single character long was replaced with nothing `""`.
 
-This is done using `forEach()` which works like: 
+This is done using `forEach()`: 
 
-First of all describe an array: (The array constructed before `value.replace("."," ").split(" ")`). Each of the bits created by this split is an element in the array. `forEach()` will go through them one by one doing whatever you specify.
+First of all describe an array. We've done this with `value.replace("."," ").split(" ")`. Each of the bits created by this split is an element in the array. `forEach()` will go through them one by one doing whatever you specify.
 
 Then allocate a variable. This gives you a easy thing to refer to when you're describing what `forEach()` should do with each element in the array. It can be anything, let's make it `v`.
 
-Then say what to do to each element of the array, using `v` to represent the element. 
-`if()` gets three arguments. The first one has to be an expression, if the expression is true it returns the second one if the expression is false it returns the third one.
+Then describe what should happen to each element of the array, using `v` to represent the element. As we want to remove elements which are only a single character long we will ise `if()`
+
+`if()` gets three arguments. The first argument has to be an expression. if the expression is true it returns the second argument if the expression is false it returns the third argument.
 
 So to get rid of any elements which are just a single character long:  `if(length(v)==1,"",v)` 
-
 
 ![replace each element that's only a single character long with nothing](/images/foreachfingerprint/Selection_002.png)
 
