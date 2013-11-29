@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "Finding the Parish name for an area in Victoria"
+title: Finding the Parish name for an area in Victoria
+published: true
 ---
 
-When doing historical research based around a particular location in Australia going back more than a few decades it is very useful to know the different cadastral boundaries associated with the area.  So if you're looking in Victoria you'll want to know the parish and county.
+When doing historical research in Australia going back more than a few decades it can be difficult to progress without knowing the different cadastral boundaries associated with the area. Once you know them it can help guide you towards the appropriate next resource.
+
+If you're looking in Victoria you'll want to know the parish and county. This is how to work that out.
 
 There's two ways to work this out -- either using historical sources  or using current online mapping technologies. Online maps can be a nice and quick way to do this. 
 
 Here's how to find the boundaries of different historical cadastral regions when you're working from the address as people understand it today:
 
-*A warning: this is all relying the assumption that the boundaries of parishes and hundreds haven't changed over time. The most variety I've seen when researching how the shape of a number of parishes changed over the course of a century or so was the addition or removal of an area of land adding up to a few square miles. But just bear it in mind if your area of interest ends up being near a border.*
+This is all relying the assumption that the boundaries of parishes and hundreds haven't changed over time. This is on the whole a safe assumption, the most variety I've seen when researching how the shape of a number of parishes changed over the course of a century or so was the addition or removal of an area of land adding up to a few square miles. But if your area of interest ends up being near a border bear it in mind and record the names of the parishes or hundreds which join onto the one you're looking at.
 
-Always record the names of the parishes or hundreds which join onto the one you're looking at.
-
-There have been [maps](http://handle.slv.vic.gov.au/10381/119930) printed for exactly this purpose, so that is one way to search.
+Over the history of Victoria there have been a number of [maps](http://handle.slv.vic.gov.au/10381/119930) printed for exactly this purpose, so that is one way to search.
 
 But it's quicker and easier to go to Land.vic.gov.au and use the online maps there. The number of steps might seem a bit excessive but once you've done it one time it only takes a few seconds in future.
 
@@ -46,7 +47,7 @@ But it's quicker and easier to go to Land.vic.gov.au and use the online maps the
 
 8 Click on the **Refresh Map** button
 
-9 The map will now change to show you the, in dotted green lines,  outline of the parish or parishes which covered the area you were interested in.  The name of the parish will be in small green text. There may also be some townships - indicated by the name followed with "TP"
+9 The map will now, in dotted green lines, change to show you the outline of the parish or parishes which covered the area you were interested in.  The name of the parish will be in small green text. There may also be some townships - indicated by the name followed with "TP"
 
 ![screenshot]( /images/viccad/Selection_006.png)
 
@@ -62,4 +63,3 @@ This map with no extra features is the easiest one to see the outlines of the pa
 
 
 If you also need to find the name of the county the easiest and quickest option is to just cheat by searching Google for the parish name and "in the county of" and it'll find a map title from somewhere.
-
