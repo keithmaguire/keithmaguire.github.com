@@ -11,7 +11,7 @@ I have a file containing scientific names of animals.
 
 I would like to add the details of the journal article where the species was first described. 
 
-# Sources
+## Sources
 
 The sites I will consult to get the publication information are 
 
@@ -22,7 +22,7 @@ The AFD provides in-depth taxonomic and bibliographic information about animals 
 
 To demonstrate the process I'm using an extract of dangerous Australian fish species from [Fishbase](http://www.fishbase.org/Country/CountryChecklist.php?showAll=yes&c_code=036&vhabitat=dangerous) with just the Genus and Species listed.
 
-# Get the data
+## Get the data
 
 To get the required information out of the site you need to work out how queries should be formed. The Atlas of Living Australia has a page which describes [webservices](http://www.ala.org.au/about-the-atlas/downloadable-tools/web-services/) available for looking up Australian biodiversity data. There you will see a link to the Taxon name service technical information at [Biodiversity.org.au](http://biodiversity.org.au/confluence/display/bdv/NSL+Services). 
 
@@ -57,7 +57,7 @@ Get refine to record the error rather than a blank when it encounters an error, 
 WHen it's finished retrieving the data all the retrieved results will be there filling a cell.
 
 
-# Parse the JSON
+## Parse the JSON
 
 ![JSON results](/images/scrapingafd/Selection_003.png)
 
@@ -98,7 +98,7 @@ To end up with (for entries where there is bibliographic information):
 
 And continue in a similar manner for other values.
 
-# Parse HTML instead
+## Parse HTML instead
 
 *OR* - because it seems to depend on the day as to which is faster - you could alternatively check the afd. This involves parsing HTML rather than JSON:
 
@@ -121,6 +121,8 @@ This fills each cell that contains a valid name with the souce HTML from all the
 To do this you need to use `parseHtml()` to specify the particular piece of the web page that contains the information you are after. This can be done by opening one of the target URLs in a browser and using Firefox's "Inspect Element" menu to identify just which bit of the page contains the information which is of interest.
 
 ## scientific name
+
+###
 
 However in this case if we want to get the scientific name we just need to examine the structure of the page to see where the scientific name is:
 
