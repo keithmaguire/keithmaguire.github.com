@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (Refine) Scraping data from a website
-date: {}
+date: "2013-02-01 00:00"
 published: true
 ---
 

@@ -1,4 +1,4 @@
 name: keithmaguire.net
 markdown: redcarpet
 pygments: true
-
+timezone: Australia/Adelaide
