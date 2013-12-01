@@ -12,7 +12,7 @@ There's two ways to work this out -- either using historical sources  or using c
 
 Here's how to find the boundaries of different historical cadastral regions when you're working from the address as people understand it today:
 
-This is all relying the assumption that the boundaries of parishes and hundreds haven't changed over time. This is on the whole a safe assumption, the most variety I've seen when researching how the shape of a number of parishes changed over the course of a century or so was the addition or removal of an area of land adding up to a few square miles. But if your area of interest ends up being near a border bear it in mind and record the names of the parishes or hundreds which join onto the one you're looking at.
+This is all relying the assumption that the boundaries of parishes and hundreds haven't changed over time. On the whole it's a safe assumption, the most variety I've seen when researching how the shape of a number of parishes changed over the course of a century or so was the addition or removal of an area of land adding up to a few square miles. But if your area of interest ends up being near a border bear it in mind and record the names of the parishes or hundreds which join onto the one you're looking at.
 
 Over the history of Victoria there have been a number of [maps](http://handle.slv.vic.gov.au/10381/119930) printed for exactly this purpose, so that is one way to search.
 
@@ -62,4 +62,4 @@ This map with no extra features is the easiest one to see the outlines of the pa
 (Sometimes Roads just adds the road names, if that happens then Roads (Centrelines) will draw the line of the road in too.)
 
 
-If you also need to find the name of the county the easiest and quickest option is to just cheat by searching Google for the parish name and "in the county of" and it'll find a map title from somewhere.
+If you also need to find the name of the county the easiest and quickest option is to search Google for the parish name and "in the county of" and it'll find a map title from somewhere.
