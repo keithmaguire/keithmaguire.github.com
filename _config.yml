@@ -1,6 +1,6 @@
 name: keithmaguire.net
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 timezone: Australia/Adelaide
 category-list: [misc, openrefine, emu_xsl, web_tweaks]
 
