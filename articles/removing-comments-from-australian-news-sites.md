@@ -2,6 +2,8 @@
 layout: article
 title: Removing comments from Australian News sites
 date: "2013-10-10 00:00"
+article: true
+categories: [web_tweaks]
 published: true
 ---
 

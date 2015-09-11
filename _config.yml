@@ -2,3 +2,5 @@ name: keithmaguire.net
 markdown: redcarpet
 pygments: true
 timezone: Australia/Adelaide
+category-list: [misc, openrefine, emu_xsl, web_tweaks]
+

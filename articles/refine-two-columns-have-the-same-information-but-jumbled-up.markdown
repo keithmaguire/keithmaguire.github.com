@@ -1,6 +1,8 @@
 ---
 layout: article
 title: (Refine) Two columns have the same information but jumbled up
+article: true
+categories: [openrefine]
 published: true
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: article
 title: KE EMu and XSLT
+article: true
+categories: [emu_xsl]
 published: true
 ---
 

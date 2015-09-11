@@ -2,8 +2,9 @@
 layout: article
 title: hello
 date: "2012-06-10 20:47"
+categories: [misc]
+article: true
 comments: true
-categories: null
 published: true
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: article
 title: Open Refine short recipes
+article: true
+categories: [openrefine]
 published: true
 ---
 

@@ -1,5 +1,7 @@
 ---
 layout: article
+article: true
+categories: [web_tweaks]
 title: "Getting rid of comments in Pressdisplay"
 ---
 

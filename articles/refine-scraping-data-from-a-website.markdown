@@ -1,6 +1,8 @@
 ---
 layout: article
 title: (Refine) Scraping data from a website
+article: true
+categories: openrefine
 date: "2013-02-01 00:00"
 published: true
 ---

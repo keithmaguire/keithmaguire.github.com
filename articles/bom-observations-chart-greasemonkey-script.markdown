@@ -1,6 +1,8 @@
 ---
 layout: article
 title: "BOM observations chart Greasemonkey script"
+article: true
+categories: [web_tweaks]
 date: 2013-02-06 20:26
 ---
 Do you live in Australia?? 
