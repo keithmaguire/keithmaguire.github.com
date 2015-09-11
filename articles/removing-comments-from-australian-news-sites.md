@@ -17,6 +17,8 @@ To use it first install Stylish [for Firefox](https://addons.mozilla.org/en-US/f
 
 The sites which will be affected by the script will appear in a list after you clink on the Install button.
 
-If you want to look through the rules before installing click on **Show CSS**. You'll see that rather than do a general rule to get rid of anything that might be a comment on any page I've added particular rules for each individual site. I don't think that comments on web sites are necessarily a bad thing - just because they're unbearable on news sites at the moment doesn't mean that they're useless elsewhere - so I'd rather have them appear as the default and choose on an individual basis when they go away. 
+If you want to look through the rules before installing click on **Show CSS**. You'll see that rather than do a general rule to get rid of anything that might be a comment on any page I've added particular rules for each individual site (or group of sites if they're all working with the same structure).
 
-It will be updated as and when either I look at a news site I've not looked at before or a site changes or a site which has good comments turns into a site with stupid comments.
+I don't think that comments on web sites are necessarily a bad thing - just because they're unbearable on news sites at the moment doesn't mean that they're useless elsewhere - so I'd rather have them appear as the default and choose on an individual basis when they go away. 
+
+The usrscript will be updated as and when either I look at a news site I've not looked at before or a site changes or a site which has good comments turns into a site with stupid comments.

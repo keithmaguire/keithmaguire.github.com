@@ -17,7 +17,7 @@ Now copy the URL of the homepage minus the `http://` bit
 
 Add the following rules to [Adblock Plus](http://adblockplus.org), replacing PRESSDISPLAYURL with whatever the URL is for the pressdisplay homepage via your library
 
-```
+``` css
 PRESSDISPLAYURL##span.lbl-comment
 PRESSDISPLAYURL##div.comments-content
 PRESSDISPLAYURL##div.marker-comment
