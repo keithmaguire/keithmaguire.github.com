@@ -6,7 +6,9 @@ published: true
 
 <div id="home">
 {% for cat in site.category-list %}
-### {{ cat }}
+
+<h2>{{ cat }}</h2>
+
 <ul>
   {% for page in site.pages %}
     {% if page.article == true %}
