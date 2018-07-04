@@ -1,19 +1,26 @@
 ---
 layout: article
 title: Removing comments from Australian News sites
-date: "2013-10-10 00:00"
+date: '2013-10-10 00:00'
 article: true
-categories: [web_tweaks]
+categories:
+  - web_tweaks
 published: true
 ---
 
 # Removing comments from Australian News sites
 
+\[July 2018\] Just saw about Stylish being dodgy, it's been suggested to use stylus instead. Though I've taken to using ublock origin for this type of thing now.
+
+
+
+[Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+
 If, like me, you find the presence of comments on news websites irritating [this](http://userstyles.org/styles/91054/remove-comments-on-australian-news-sites) might appeal to you. 
 
 It's a userstyle for the browser addon Stylish which will remove the comments from a bunch of Australian news web sites. I've also tried to get it to remove elements that refer to the presence of comments - those little balloons with numbers in them and that type of thing.
 
-To use it first install Stylish [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/) or [for Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en) . Then go to the the page for the userstyle on [userstyles.org](http://userstyles.org/styles/91054/remove-comments-on-australian-news-sites) and click on the **Install with Stylish** button.
+
 
 The sites which will be affected by the script will appear in a list after you clink on the Install button.
 
