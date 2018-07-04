@@ -8,8 +8,6 @@ categories:
 published: true
 ---
 
-# Removing comments from Australian News sites
-
 \[July 2018\] Just saw about Stylish being dodgy, it's been suggested to use stylus instead. Though I've taken to using ublock origin for this type of thing now.
 
 
