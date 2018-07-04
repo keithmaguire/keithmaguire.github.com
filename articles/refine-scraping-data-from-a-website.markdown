@@ -3,7 +3,7 @@ layout: article
 title: (Refine) Scraping data from a website
 article: true
 categories: openrefine
-date: "2013-02-01 00:00"
+date: '2013-02-01 00:00'
 published: true
 ---
 
@@ -42,7 +42,7 @@ In the Species column choose *Edit column*, then *Add column based on this colum
 
 `%20` represents a space - it didn't work when the space was there as `" "`
 
-![creating URL column](/images/scrapingafd/Selection_001.png)
+![Adding a URL column in OpenRefine](/images/scrapingafd/Selection_001.png)
 
 Before clicking OK check that you're on the right track by copy and pasting one of the URLs into a new tab and just make sure that it finds the appropriate page.
 
@@ -52,7 +52,7 @@ Change the speed of requests to another value as 5000 milliseconds between reque
 
 Get refine to record the error rather than a blank when it encounters an error, at least at first.
 
-![scraping biodiversity.org.au](/images/scrapingafd/Selection_002.png)
+![fetching URLS in OpenRefine](/images/scrapingafd/Selection_002.png)
 
 *This may take quite some time - depending on the amount of items you're checking*
 
@@ -61,13 +61,13 @@ WHen it's finished retrieving the data all the retrieved results will be there f
 
 ## Parse the JSON
 
-![JSON results](/images/scrapingafd/Selection_003.png)
+![The JSON-format results of the previous search](/images/scrapingafd/Selection_003.png)
 
 I've found the easiest way to work out the following bit is by copy-and-pasting one of the cells into a text editor and squinting at the JSON to work out the location of the bit of interest.
 
 For example the full scientific name is there under dcterms_title
 
-![full scientific name highlighted](/images/scrapingafd/Selection_004.png)
+![A section of JSON text with the dcterms_title, full scientific name, highlighted](/images/scrapingafd/Selection_004.png)
 
 So to get the scientific name out of each entry:
 
@@ -76,7 +76,7 @@ value.parseJson()[0].dcterms_title
 ```
 *with the just-created columns hidden so as to show the results better:*
 
-![creating URL column](/images/scrapingafd/Selection_005.png)
+![Genus, species and dcterms_title columns in OpenRefine](/images/scrapingafd/Selection_005.png)
 
 One bit of information you can get out of what you've gotten so far is information about the publication which named the taxon, *if that information has been recorded* So for example to get the publication code out  - (this will be easier to work with as it contains the long versions of journal names)
 
@@ -96,7 +96,7 @@ And then, from that new column we can get all sorts of info by adding a new colu
 
 To end up with (for entries where there is bibliographic information):
 
-![bibliographic examples](/images/scrapingafd/Selection_006.png)
+![A number of entries in OpenRefine showing bibliographic information related to various taxa](/images/scrapingafd/Selection_006.png)
 
 And continue in a similar manner for other values.
 
@@ -118,17 +118,15 @@ Again, make sure to use `"%20"` rather than `" "` or you may end up spending a f
 
 This fills each cell that contains a valid name with the souce HTML from all the different individual pages. It looks horrible, but from this you can extract the information you're after. 
 
-![scrape from AFD names](/images/scrapingafd/Selection_007.png)
+![The results of scraping HTML from the Australian Faunal Directory using OpenRefine](/images/scrapingafd/Selection_007.png)
 
 To do this you need to use `parseHtml()` to specify the particular piece of the web page that contains the information you are after. This can be done by opening one of the target URLs in a browser and using Firefox's "Inspect Element" menu to identify just which bit of the page contains the information which is of interest.
 
 ## scientific name
 
-###
-
 However in this case if we want to get the scientific name we just need to examine the structure of the page to see where the scientific name is:
 
-![working out location of scientific name](/images/scrapingafd/Selection_008.png)
+![A HTML page and its source, with the element in the source containing the scientific name highlighted](/images/scrapingafd/Selection_008.png)
 
 You can see that the scientific name is in a div with class `.afdbody`, and it's the `<h1>` element. Then if we get rid of "Names List for" and anything between `<`and`>` then we'll have the scientific name:
 
