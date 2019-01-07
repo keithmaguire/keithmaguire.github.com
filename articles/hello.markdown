@@ -1,8 +1,9 @@
 ---
 layout: article
 title: hello
-date: "2012-06-10 20:47"
-categories: [misc]
+date: '2012-06-10 20:47'
+categories:
+  - misc
 article: true
 comments: true
 published: true
@@ -20,4 +21,4 @@ This blog is made with [jekyll](http://jekyllrb.com) and hosted on Github.
 
 I'll update or remove things as appropriate. If for some reason you want to see a prior version of this site look on the [Wayback Machine](http://web.archive.org/web/*/keithmaguire.net).
 
-All opinions are mine.
+Any opinions expressed here are mine alone.
