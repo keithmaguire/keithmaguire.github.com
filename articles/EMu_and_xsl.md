@@ -1,9 +1,10 @@
 ---
 layout: article
-title: KE EMu and XSLT
+title: Axiell EMu and XSLT
 article: true
-categories: [emu_xsl]
+categories:
+  - Emu and XSLT
 published: true
 ---
 
-This is the first test article to see if this way of structuring the pasts works
+If you work with Axiell EMu and have passing familiarity with XSLT the [SA Museum github](https://github.com/samuseum) might be useful to you.
